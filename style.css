@@ -7,7 +7,7 @@ body {
 
 /* This is the nav section */
 
-.nav {
+.lp-nav {
     width: 100%;
     background-color: white;
     box-shadow: 0px 3px 5px #33333326;
@@ -17,7 +17,7 @@ body {
     top: 0;
 }
 
-.nav-wrapper {
+.lp-nav-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,18 +26,18 @@ body {
     margin: 0 auto;
 }
 
-.nav-logo {
+.lp-nav-logo {
     width: 20%;
     display: flex;
     justify-content: flex-start;
     /* border: 1px solid red; */
 }
 
-.nav-logo>a>img {
+.lp-nav-logo>a>img {
     width: 100%;
 }
 
-.nav-wrapper>ul {
+.lp-nav-wrapper>ul {
     width: 70%;
     display: flex;
     justify-content: flex-end;
@@ -45,7 +45,7 @@ body {
     /* border: 1px solid red; */
 }
 
-.nav-wrapper>ul>li {
+.lp-nav-wrapper>ul>li {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -58,35 +58,35 @@ body {
     -o-transition: .5s;
 }
 
-.request-quote-btn {
+.lp-request-quote-btn {
     background-color: #f92828;
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
 }
 
-.request-quote-btn:hover {
+.lp-request-quote-btn:hover {
     background-color: rgb(176, 19, 19);
 }
 
-.request-quote-btn>a {
+.lp-request-quote-btn>a {
     color: white !important;
 }
 
-.nav-wrapper>ul>li>a {
+.lp-nav-wrapper>ul>li>a {
     text-decoration: none;
     color: #242424;
     transition: .5s;
 }
 
-.nav-wrapper>ul>li>a:hover {
+.lp-nav-wrapper>ul>li>a:hover {
     color: grey;
 }
 
 
 /* This is the mobile Nav */
 
-.nav-mobile {
+.lp-nav-mobile {
     position: fixed;
     width: 200px;
     height: 100vh;
@@ -110,19 +110,19 @@ body {
     -o-transition: .5s;
 }
 
-.burger-btn {
+.lp-burger-btn {
     width: 70%;
     padding: 10px;
     display: none;
     justify-content: flex-end;
 }
 
-.burger-btn>p {
+.lp-burger-btn>p {
     font-size: 1.4em;
     cursor: pointer;
 }
 
-.nav-mobile>ul {
+.lp-nav-mobile>ul {
     width: 90%;
     padding: 0;
     margin: 15px auto;
@@ -130,7 +130,7 @@ body {
     height: 90%;
 }
 
-.mobile-exit-nav {
+.lp-mobile-exit-nav {
     cursor: pointer;
     font-size: 1.4em;
     transition: .5s;
@@ -140,7 +140,7 @@ body {
     -o-transition: .5s;
 }
 
-.mobile-exit-nav:hover {
+.lp-mobile-exit-nav:hover {
     color: rgb(225, 58, 58);
     transform: translateY(-5px);
     -webkit-transform: translateY(-5px);
@@ -149,7 +149,7 @@ body {
     -o-transform: translateY(-5px);
 }
 
-.nav-mobile>ul>li {
+.lp-nav-mobile>ul>li {
     list-style: none;
     padding: 20px;
     text-align: center;
@@ -157,7 +157,7 @@ body {
     border-bottom: 1px solid #f3f3f3;
 }
 
-.nav-mobile>ul>li>a {
+.lp-nav-mobile>ul>li>a {
     color: #373737;
     text-decoration: none;
 }
@@ -165,7 +165,7 @@ body {
 
 /* This is the Form Modal */
 
-.modal-content {
+.lp-modal-content {
     display: none;
     justify-content: center;
     align-content: center;
@@ -177,7 +177,7 @@ body {
     z-index: 999;
 }
 
-.modal-box-form {
+.lp-modal-box-form {
     position: fixed;
     /* top: -610px; */
     display: flex;
@@ -192,21 +192,21 @@ body {
     box-shadow: 0px 3px 5px #000;
 }
 
-.modal-form {
+.lp-modal-form {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-content: flex-start;
 }
 
-.modal-form-exit-btn {
+.lp-modal-form-exit-btn {
     width: 80%;
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
 }
 
-.modal-exit-btn {
+.lp-modal-exit-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,7 +229,7 @@ body {
     -o-transition: .5s;
 }
 
-.modal-exit-btn:hover {
+.lp-modal-exit-btn:hover {
     color: red;
     transform: translateY(-5px);
     -webkit-transform: translateY(-5px);
@@ -239,18 +239,18 @@ body {
     box-shadow: 0px 8px 5px #00000063;
 }
 
-.modal-form-title {
+.lp-modal-form-title {
     display: flex;
     width: 100%;
     padding: 20px;
     justify-content: center;
 }
 
-.modal-form-title>h2 {
+.lp-modal-form-title>h2 {
     font-size: 2.5em;
 }
 
-.modal-form>form {
+.lp-modal-form>form {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -258,7 +258,7 @@ body {
     align-content: center;
 }
 
-.modal-form>form>input {
+.lp-modal-form>form>input {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -270,18 +270,18 @@ body {
     -o-border-radius: 3px;
 }
 
-.form-submit-btn {
+.lp-form-submit-btn {
     background-color: red;
     color: white;
     border: none;
 }
 
-.modal-picture,
-.modal-form {
+.lp-modal-picture,
+.lp-modal-form {
     width: 50%;
 }
 
-.modal-picture {
+.lp-modal-picture {
     height: 100%;
     background-image: url(https://partnerportal.quietcoolsystems.com/wp-content/uploads/2021/02/House-lifestyle.jpg);
     background-position: center;
@@ -293,7 +293,7 @@ body {
 
 /* This is the video modal */
 
-.video-modal-btn {
+.lp-video-modal-btn {
     background-color: rgb(39, 150, 235);
     padding: 10px 15px;
     margin-left: 5px;
@@ -309,15 +309,15 @@ body {
     -o-transition: .5s;
 }
 
-.video-modal-btn:hover {
+.lp-video-modal-btn:hover {
     background-color: rgb(30, 123, 194);
 }
 
-.video-modal-btn>a {
+.lp-video-modal-btn>a {
     color: white !important;
 }
 
-.modal-video {
+.lp-modal-video {
     display: none;
     flex-wrap: wrap;
     justify-content: center;
@@ -330,7 +330,7 @@ body {
     z-index: 999;
 }
 
-.modal-video-box {
+.lp-modal-video-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -346,7 +346,7 @@ body {
     -o-border-radius: 5px;
 }
 
-.modal-video-content {
+.lp-modal-video-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -354,7 +354,7 @@ body {
     height: 400px;
 }
 
-.video-modal-exit-btn {
+.lp-video-modal-exit-btn {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -363,7 +363,7 @@ body {
     padding: 10px 0;
 }
 
-.video-modal-exit-btn>p {
+.lp-video-modal-exit-btn>p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -387,7 +387,7 @@ body {
     -o-transition: .5s ease;
 }
 
-.video-modal-exit-btn>p:hover {
+.lp-video-modal-exit-btn>p:hover {
     color: rgb(203, 48, 48);
     transform: translateY(5px);
     -webkit-transform: translateY(-5px);
@@ -399,52 +399,52 @@ body {
 }
 
 @media only screen and (max-width:1289px) {
-    .nav-wrapper>ul {
+    .lp-nav-wrapper>ul {
         display: none;
     }
-    .burger-btn {
+    .lp-burger-btn {
         display: flex;
     }
 }
 
 @media only screen and (max-width:768px) {
-    .nav-logo {
+    .lp-nav-logo {
         width: 25%;
     }
 }
 
 @media only screen and (max-width:414px) {
-    .nav-logo,
-    .burger-btn {
+    .lp-nav-logo,
+    .lp-burger-btn {
         width: 45%;
     }
-    .modal-picture {
+    .lp-modal-picture {
         display: none;
     }
-    .modal-exit-btn {
+    .lp-modal-exit-btn {
         font-size: 1.2em;
         width: 30px;
         height: 30px;
     }
-    .modal-form {
+    .lp-modal-form {
         width: 100%;
         height: 100%;
     }
-    .modal-box-form {
+    .lp-modal-box-form {
         height: 85%;
     }
-    .modal-form-title>h2 {
+    .lp-modal-form-title>h2 {
         font-size: 1.5em;
         text-align: center;
         margin: 0 auto;
     }
-    .modal-video-box {
+    .lp-modal-video-box {
         width: 90%;
         height: 60%;
         align-items: flex-start;
         align-content: center;
     }
-    .video-modal-exit-btn>p {
+    .lp-video-modal-exit-btn>p {
         font-size: 1.2em;
         width: 30px;
         height: 30px;
